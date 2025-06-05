@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from repository.slotRepository import SlotRepository
-from models.slotModel import Slot
+from app.repository.slotRepository import SlotRepository
+from app.models.slotModel import Slot
 from typing import List
 
 router = APIRouter()

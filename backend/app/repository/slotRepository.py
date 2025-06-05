@@ -1,5 +1,5 @@
 from typing import List
-from models.slotModel import Slot
+from app.models.slotModel import Slot
 
 class SlotRepository:
     def __init__(self):
